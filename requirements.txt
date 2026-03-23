@@ -12,3 +12,8 @@ transformers
 supervision
 rtree
 mapbox_earcut
+
+# Sionna RT (ray tracing for wireless)
+# Requires TensorFlow — GPU recommended
+# sionna
+# tensorflow>=2.13

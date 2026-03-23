@@ -8,3 +8,9 @@ output/**
 *.log
 *.tmp
 *.cache
+.hf_cache/
+output/
+__pycache__/
+*.log
+*.tmp
+*.cache
