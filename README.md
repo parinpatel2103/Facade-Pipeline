@@ -162,6 +162,7 @@ pip install sionna tensorflow
 python3 app/sionna_scene_loader.py
 ```
 
+
 **2. Ray tracing experiments (`run_sionna.py`)**
 
 Runs four experiments on the loaded scene at 3.5 GHz (mid-band 5G). TX and RX are single-element isotropic vertical-polarization arrays. Paths are solved with `PathSolver`.
@@ -190,6 +191,21 @@ scene.rx_array  = PlanarArray(num_rows=1, num_cols=1, pattern="iso", polarizatio
 Power reported in experiments 2–4 is the sum of squared real and imaginary path coefficients: `Σ |a|²`.
 
 ---
+
+
+ ## My Contributions
+
+This project was completed as part of my senior design capstone at UT Austin. I contributed to the development, testing, and validation of the overall digital twin and RF simulation pipeline.
+
+My main contributions included:
+
+- RF ray-tracing simulation.
+- Helping test and validate segmented building outputs for use in Blender and Sionna RT.
+- Working with Sionna RT/Mitsuba scene setup to simulate wireless propagation in a campus digital twin environment.
+- Supporting experiments comparing line-of-sight and reflected RF paths.
+- Debugging environment/setup issues related to Python dependencies, Docker/Linux workflows, and simulation execution.
+- Helping document the project workflow, limitations, and future improvements.
+
 
 ## Configuration reference
 
