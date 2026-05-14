@@ -8,6 +8,12 @@ photo → Grounding DINO → SAM → scaled .obj meshes → Blender / Sionna RT
 
 ---
 
+## Related Project Documentation
+
+A higher-level overview of the project architecture, motivation, experiments, and system design can be found here:
+
+[AI-Native-5G-Digital-Twin](https://github.com/parinpatel2103/ai-native-5G-digital-twin)
+
 ## How it works
 
 1. **Grounding DINO** detects bounding boxes for windows and doors using open-vocabulary text prompts. Runs on the full building crop plus a tiled pass to catch small repeated elements like individual window panes.
